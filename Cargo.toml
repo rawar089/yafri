@@ -1,0 +1,13 @@
+[package]
+name = "yafri"
+version = "0.1.0"
+authors = ["rawar089"]
+description = "Yet another FRACTRAN rust interpreter"
+edition = "2021"
+readme = "README.md"
+license = "GPLv3"
+
+[dependencies]
+clap = { version = "4.0.11", features = ["derive"] }
+num = "0.4.0"
+
